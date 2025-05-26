@@ -70,6 +70,8 @@ const resetgame=()=>{
     turn0=true;
     enable();
     msgcon.classList.add("hide")
+    draw=true;
+    count=0;
 }
 newbtn.addEventListener("click", resetgame);
 reset.addEventListener("click", resetgame);
